@@ -1,0 +1,32 @@
+﻿  Building 'CookieMemoryCopyDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\CookieMemoryCopyDriver.inf
+  Stamping [Version] section with DriverVer=11/10/2023,0.11.22.11
+  driver.c
+C:\Users\lanya\source\repos\CookieMemoryCopyDriver\CookieMemoryCopyDriver\driver.c(32,29): warning C4100: “RegistryPath”: 未引用的形参
+C:\Users\lanya\source\repos\CookieMemoryCopyDriver\CookieMemoryCopyDriver\driver.c(35,11): warning C4189: “status”: 局部变量已初始化但不引用
+C:\Users\lanya\source\repos\CookieMemoryCopyDriver\CookieMemoryCopyDriver\driver.c(36,20): warning C4101: “config”: 未引用的局部变量
+C:\Users\lanya\source\repos\CookieMemoryCopyDriver\CookieMemoryCopyDriver\driver.c(91,20): warning C4002: 类函数宏的调用“IoGetFunctionCodeFromCtlCode”参数过多
+C:\Users\lanya\source\repos\CookieMemoryCopyDriver\CookieMemoryCopyDriver\driver.c(98,20): warning C4047: “==”:“int”与“void *”的间接级别不同
+C:\Users\lanya\source\repos\CookieMemoryCopyDriver\CookieMemoryCopyDriver\driver.c(88,8): warning C4047: “初始化”:“UCHAR”与“void *”的间接级别不同
+C:\Users\lanya\source\repos\CookieMemoryCopyDriver\CookieMemoryCopyDriver\driver.c(89,8): warning C4047: “初始化”:“UCHAR”与“void *”的间接级别不同
+C:\Users\lanya\source\repos\CookieMemoryCopyDriver\CookieMemoryCopyDriver\driver.c(85,45): warning C4100: “pDevObj”: 未引用的形参
+C:\Users\lanya\source\repos\CookieMemoryCopyDriver\CookieMemoryCopyDriver\driver.c(89,8): warning C4189: “MinorFunction”: 局部变量已初始化但不引用
+  CookieMemoryCopyDriver.vcxproj -> C:\Users\lanya\source\repos\CookieMemoryCopyDriver\x64\Debug\CookieMemoryCopyDriver.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\lanya\source\repos\CookieMemoryCopyDriver\x64\Debug\CookieMemoryCopyDriver.sys
+  
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\lanya\source\repos\CookieMemoryCopyDriver\x64\Debug\CookieMemoryCopyDriver\cookiememorycopydriver.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\lanya\source\repos\CookieMemoryCopyDriver\x64\Debug\CookieMemoryCopyDriver\cookiememorycopydriver.cat
+  
